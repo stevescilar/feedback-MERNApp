@@ -1,7 +1,7 @@
 const express = require('express'); //import express
 const app = express();
 
-// route handler
+// route handler --
 app.get('/', (req, res) => {
     res.send({ hello: 'there' });
 });
